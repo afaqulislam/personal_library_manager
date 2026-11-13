@@ -1,0 +1,13 @@
+include README.md
+include LICENSE
+include CHANGELOG.md
+include pyproject.toml
+
+recursive-include src *.py
+recursive-include tests *.py
+
+prune dist
+prune build
+prune .pytest_cache
+global-exclude __pycache__
+global-exclude *.py[cod]
