@@ -12,7 +12,7 @@ A dependency-free, command-line manager for your personal book collection. Add, 
 <p align="center">
   <img src="https://img.shields.io/pypi/v/personal-library-manager-cli-aui?label=PyPI&style=flat-square" alt="PyPI version">
   <img src="https://img.shields.io/pypi/pyversions/personal-library-manager-cli-aui?style=flat-square" alt="PyPI Python versions">
-  <img src="https://img.shields.io/github/actions/workflow/status/afaqulislam/personal-library-manager/ci.yml?branch=main&label=tests&style=flat-square" alt="CI">
+  <img src="https://img.shields.io/github/actions/workflow/status/afaqulislam/personal_library_manager/ci.yml?branch=main&label=tests&style=flat-square" alt="CI">
 </p>
 
 > **Package names**
@@ -95,8 +95,8 @@ pipx install personal-library-manager-cli-aui
 ### From source
 
 ```bash
-git clone https://github.com/afaqulislam/personal-library-manager.git
-cd personal-library-manager
+git clone https://github.com/afaqulislam/personal_library_manager.git
+cd personal_library_manager
 python -m pip install .
 ```
 
@@ -306,7 +306,7 @@ Invalid input raises `ValueError` with a descriptive message.
 ## 📁 Project Structure
 
 ```text
-personal-library-manager/
+personal_library_manager/
 ├── src/
 │   └── personal_library_manager/
 │       ├── __init__.py      # Public API and version
@@ -335,8 +335,8 @@ personal-library-manager/
 ## 🛠️ Development Setup
 
 ```bash
-git clone https://github.com/afaqulislam/personal-library-manager.git
-cd personal-library-manager
+git clone https://github.com/afaqulislam/personal_library_manager.git
+cd personal_library_manager
 
 python -m venv .venv
 # Windows
@@ -408,7 +408,7 @@ One-time setup on PyPI / TestPyPI → **Your projects → Publishing → Add a p
 |---|---|---|
 | PyPI project name | `personal-library-manager-cli-aui` | `personal-library-manager-cli-aui` |
 | Owner | `afaqulislam` | `afaqulislam` |
-| Repository | `personal-library-manager` | `personal-library-manager` |
+| Repository | `personal_library_manager` | `personal_library_manager` |
 | Workflow name | `publish-testpypi.yml` | `publish-pypi.yml` |
 | Environment | `testpypi` | `pypi` |
 

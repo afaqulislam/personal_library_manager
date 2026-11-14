@@ -13,7 +13,7 @@ def feed(monkeypatch, values):
     """Replace input() with a scripted sequence that raises EOF when exhausted."""
     answers = iter(values)
 
-    def fake_input(prompt=""):
+    def fake_input(_prompt=""):
         try:
             return next(answers)
         except StopIteration:
@@ -169,7 +169,7 @@ def test_keyboard_interrupt_saves_before_exit(monkeypatch, tmp_path, capsys):
     seeded.add_book("Saved Book", "Author", 2020, "Genre")
     seeded.save()
 
-    def interrupt(prompt=""):
+    def interrupt(_prompt=""):
         raise KeyboardInterrupt
 
     monkeypatch.setattr(builtins, "input", interrupt)

@@ -44,6 +44,7 @@ dependencies = []
 [project.optional-dependencies]
 dev = [
     "pytest>=7.4",
+    "ruff>=0.6",
     "build>=1.2",
     "twine>=5.0",
 ]
@@ -52,10 +53,10 @@ dev = [
 personal_library_manager = "personal_library_manager.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/afaqulislam/personal-library-manager"
-Repository = "https://github.com/afaqulislam/personal-library-manager"
-Issues = "https://github.com/afaqulislam/personal-library-manager/issues"
-Changelog = "https://github.com/afaqulislam/personal-library-manager/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/afaqulislam/personal_library_manager"
+Repository = "https://github.com/afaqulislam/personal_library_manager"
+Issues = "https://github.com/afaqulislam/personal_library_manager/issues"
+Changelog = "https://github.com/afaqulislam/personal_library_manager/blob/main/CHANGELOG.md"
 
 [tool.setuptools]
 package-dir = { "" = "src" }
@@ -69,3 +70,10 @@ minversion = "7.0"
 addopts = "-ra"
 testpaths = ["tests"]
 pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]

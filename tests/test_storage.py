@@ -2,8 +2,6 @@
 
 import json
 
-import pytest
-
 from personal_library_manager import Library
 
 

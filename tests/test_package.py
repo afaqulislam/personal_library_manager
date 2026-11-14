@@ -27,6 +27,7 @@ def run_module(*args, data_dir=None, inputs=None):
     return subprocess.run(
         command,
         input=inputs,
+        check=False,
         capture_output=True,
         text=True,
         encoding="utf-8",
