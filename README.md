@@ -10,8 +10,8 @@ A dependency-free, command-line manager for your personal book collection. Add, 
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/pypi/v/personal-library-manager-cli-aui?label=PyPI&style=flat-square" alt="PyPI version">
-  <img src="https://img.shields.io/pypi/pyversions/personal-library-manager-cli-aui?style=flat-square" alt="PyPI Python versions">
+  <img src="https://img.shields.io/pypi/v/personal-library-manager-cli-aui?label=PyPI%20version&style=flat-square&logo=pypi&logoColor=white" alt="PyPI version">
+  <img src="https://img.shields.io/pypi/pyversions/personal-library-manager-cli-aui?label=Python%20versions&style=flat-square&logo=python&logoColor=white" alt="PyPI Python versions">
   <img src="https://img.shields.io/github/actions/workflow/status/afaqulislam/personal_library_manager/ci.yml?branch=main&label=tests&style=flat-square" alt="CI">
 </p>
 
