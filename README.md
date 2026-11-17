@@ -23,7 +23,7 @@ A dependency-free, command-line manager for your personal book collection. Add, 
 >
 > The distribution name differs because the plain `personal-library-manager` name is already registered on PyPI by another project. The import package and command are exactly as expected.
 >
-> PyPI badges populate after the first release. This project has **not** been published to PyPI yet.
+> **PyPI:** [personal-library-manager-cli-aui](https://pypi.org/project/personal-library-manager-cli-aui/) — **v0.1.0 is published.** The badges above reflect the live project.
 
 ---
 
@@ -44,6 +44,7 @@ A dependency-free, command-line manager for your personal book collection. Add, 
 - [Publishing (Maintainers)](#-publishing-maintainers)
 - [Compatibility](#-compatibility)
 - [Contributing](#-contributing)
+- [Links](#-links)
 - [License](#-license)
 - [Author](#-author)
 
@@ -80,7 +81,9 @@ The project uses only the **Python Standard Library**, so installation is fast a
 
 Requires **Python 3.9 or newer**.
 
-### From PyPI (after publication)
+### From PyPI
+
+The current release is **0.1.0**:
 
 ```bash
 pip install personal-library-manager-cli-aui
@@ -393,7 +396,7 @@ python -m venv /tmp/verify
 
 ## 🚢 Publishing (Maintainers)
 
-> **Status:** not published. Publishing requires explicit approval.
+> **Status:** [v0.1.0](https://pypi.org/project/personal-library-manager-cli-aui/0.1.0/) is published on PyPI. Future releases require explicit approval.
 
 ### Option A — Trusted Publishing via GitHub Actions (recommended)
 
@@ -417,7 +420,7 @@ No API tokens are stored in the repository; the workflows use OIDC.
 After that:
 
 1. Go to **Actions → Publish to TestPyPI → Run workflow** to validate.
-2. Create a GitHub Release (tag e.g. `v0.1.0`) to publish to PyPI.
+2. Create a GitHub Release with a new tag (for example, `vX.Y.Z`) to publish that version to PyPI.
 
 ### Option B — Manual upload
 
@@ -443,7 +446,7 @@ When prompted, use `__token__` as the username and your API token as the passwor
 - **Python:** 3.9, 3.10, 3.11, 3.12, 3.13
 - **Operating systems:** Windows, macOS, Linux
 - **Runtime dependencies:** none
-- **Development dependencies:** `pytest`, `build`, `twine`
+- **Development dependencies:** `pytest`, `ruff`, `build`, `twine`
 
 ---
 
@@ -457,6 +460,16 @@ When prompted, use `__token__` as the username and your API token as the passwor
 6. Push the branch and open a Pull Request.
 
 Please keep the package free of runtime dependencies unless there is a strong justification.
+
+---
+
+## 🔗 Links
+
+- **PyPI:** [personal-library-manager-cli-aui](https://pypi.org/project/personal-library-manager-cli-aui/)
+- **GitHub:** [afaqulislam/personal_library_manager](https://github.com/afaqulislam/personal_library_manager)
+- **Issues:** [Report a bug or request a feature](https://github.com/afaqulislam/personal_library_manager/issues)
+- **Releases:** [Release history](https://github.com/afaqulislam/personal_library_manager/releases)
+- **Changelog:** [CHANGELOG.md](https://github.com/afaqulislam/personal_library_manager/blob/main/CHANGELOG.md)
 
 ---
 
