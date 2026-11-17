@@ -23,7 +23,7 @@ A dependency-free, command-line manager for your personal book collection. Add, 
 >
 > The distribution name differs because the plain `personal-library-manager` name is already registered on PyPI by another project. The import package and command are exactly as expected.
 >
-> **PyPI:** [personal-library-manager-cli-aui](https://pypi.org/project/personal-library-manager-cli-aui/) — **v0.1.0 is published.** The badges above reflect the live project.
+> **PyPI:** [personal-library-manager-cli-aui](https://pypi.org/project/personal-library-manager-cli-aui/) — **v0.1.1 is published.** The badges above reflect the live project.
 
 ---
 
@@ -83,7 +83,7 @@ Requires **Python 3.9 or newer**.
 
 ### From PyPI
 
-The current release is **0.1.0**:
+The current release is **0.1.1**:
 
 ```bash
 pip install personal-library-manager-cli-aui
@@ -381,14 +381,14 @@ python -m twine check dist/*
 
 This produces:
 
-- `dist/personal_library_manager_cli_aui-0.1.0-py3-none-any.whl`
-- `dist/personal_library_manager_cli_aui-0.1.0.tar.gz`
+- `dist/personal_library_manager_cli_aui-0.1.1-py3-none-any.whl`
+- `dist/personal_library_manager_cli_aui-0.1.1.tar.gz`
 
 Verify an artifact in a clean environment:
 
 ```bash
 python -m venv /tmp/verify
-/tmp/verify/bin/pip install dist/personal_library_manager_cli_aui-0.1.0-py3-none-any.whl
+/tmp/verify/bin/pip install dist/personal_library_manager_cli_aui-0.1.1-py3-none-any.whl
 /tmp/verify/bin/personal_library_manager --version
 ```
 
@@ -396,7 +396,7 @@ python -m venv /tmp/verify
 
 ## 🚢 Publishing (Maintainers)
 
-> **Status:** [v0.1.0](https://pypi.org/project/personal-library-manager-cli-aui/0.1.0/) is published on PyPI. Future releases require explicit approval.
+> **Status:** [v0.1.1](https://pypi.org/project/personal-library-manager-cli-aui/0.1.1/) is published on PyPI. Future releases require explicit approval.
 
 ### Option A — Trusted Publishing via GitHub Actions (recommended)
 

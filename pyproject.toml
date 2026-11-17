@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "personal-library-manager-cli-aui"
-version = "0.1.0"
+version = "0.1.1"
 description = "A command-line manager for organizing, searching, tracking and exporting your personal book collection."
 readme = "README.md"
 requires-python = ">=3.9"

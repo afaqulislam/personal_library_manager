@@ -37,7 +37,7 @@ def run_module(*args, data_dir=None, inputs=None):
 
 
 def test_public_api_exports():
-    assert personal_library_manager.__version__ == "0.1.0"
+    assert personal_library_manager.__version__ == "0.1.1"
     assert personal_library_manager.Book is Book
     assert personal_library_manager.Library is Library
 
@@ -46,7 +46,7 @@ def test_module_version_runs():
     result = run_module("--version")
 
     assert result.returncode == 0
-    assert result.stdout.strip() == "personal_library_manager 0.1.0"
+    assert result.stdout.strip() == "personal_library_manager 0.1.1"
 
 
 def test_module_help_runs():

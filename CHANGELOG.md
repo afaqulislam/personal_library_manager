@@ -6,6 +6,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-11-17
+
+### Changed
+
+- Refreshed `README.md` for the published PyPI release, including current
+  installation instructions, release status, project links and maintainer steps.
+- Added `ruff` to the documented development dependencies.
+- Aligned the `v0.1.0` GitHub release notes with `CHANGELOG.md`.
+- Documentation-only release; no functional or API changes.
+
 ## [0.1.0] - 2026-11-14
 
 ### Added
